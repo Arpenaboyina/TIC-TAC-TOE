@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /* background-color: rgb(70, 119, 161); */
+    text-align: center;
+    background-image: url('https://static.vecteezy.com/system/resources/previews/032/242/170/non_2x/beautiful-waterfall-flowers-water-nature-waterfall-hd-wallpaper-ai-generated-free-photo.jpg');
+    background-size: cover; /* Adjust to fit the image nicely */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+.container {
+    height: 70vh;
+     display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+
+}
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:1.5vmin;
+
+}
+
+.box{
+height:18vmin;
+width:18vmin;
+border-radius: 1rem;
+border:none;
+box-shadow:0 0 1 rem rgba(0,0,0.1) ;
+font-size: 8vmin;
+color:#b0413e;
+}
+
+#reset-btn
+{
+    padding: 1rem;
+    font-size: 1.25rm;
+    background-color: #191913;
+    color:#ffff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#new-btn {
+    padding: 1rem;
+    font-size: 1.25rm;
+    background-color: #191913;
+    color:#ffff;
+    border-radius: 1rem;
+    border: none;
+}
+
+#msg {
+   color:#d3c7ff ;
+   font-size:5vmin;
+}
+
+.msg-container {
+    height: 80vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.hide {
+    display: none;
+}
+
+.h1 {
+    color:#b0413e;
+}
